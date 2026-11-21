@@ -1,0 +1,11 @@
+cd 'C:\Users\srina\Downloads\cloud pipeline'
+@'
+airflow/
+incoming/
+cleaned/
+rejected/
+__pycache__/
+*.pyc
+.env
+.venv/
+'@ | Set-Content -Path .gitignore -Encoding ascii
