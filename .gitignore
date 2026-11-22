@@ -6,6 +6,7 @@ cleaned/
 rejected/
 __pycache__/
 *.pyc
+.pytest.ini
 .env
 .venv/
 '@ | Set-Content -Path .gitignore -Encoding ascii
