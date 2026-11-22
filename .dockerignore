@@ -1,0 +1,10 @@
+@'
+airflow/
+incoming/
+cleaned/
+rejected/
+tests/
+.git/
+.github/
+__pycache__/
+'@ | Set-Content -Path .dockerignore -Encoding ascii
